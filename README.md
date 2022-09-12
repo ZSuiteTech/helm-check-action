@@ -5,11 +5,11 @@ template before its deployment; executes [helm lint](https://helm.sh/docs/helm/#
 commands
 
 ## Table of Contents
-* [Components](#components)
-* [Environment Variables](#environment-variables)
-* [Sample](#sample)
-* [Output Example](#output-example)
-* [Testing](#testing)
+  - [Components](#components)
+  - [Environment variables](#environment-variables)
+  - [Sample](#sample)
+  - [Output example](#output-example)
+  - [Testing](#testing)
 
 ## Components
 * `Dockerfile`: contains docker image configuration
@@ -17,7 +17,7 @@ commands
 
 ## Environment variables
 * `CHART_LOCATION`: chart folder; required field for `helm lint` and `helm template` executions
-* `CHART_VALUES`: custom values file for specific kubernetes environment; required field for `helm template` execution
+* `CHART_VALUES`: custom values file for specific kubernetes environment; required field for `helm template` execution. Can daisy chain multiple files by addind ` -f value.yaml` after the initial yaml file. EX: `values.yaml -f some.yaml -f other.yaml`
 
 ## Sample
 [helm-check-action-sample](https://github.com/igabaydulin/helm-check-action-sample) is a sample which uses this action

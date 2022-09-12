@@ -3,24 +3,23 @@
 First off, thank you for taking the time to contribute! :hearts: :+1: :tada: 
 
 ### Table of Contents
-
-* [Code of Conduct](#code-of-conduct)
-* [How to Contribute](#how-to-contribute)
-  * [Discuss](#discuss)
-  * [Submit a Pull Request](#submit-a-pull-request)
+    - [Code of Conduct](#code-of-conduct)
+    - [How to Contribute](#how-to-contribute)
+      - [Discuss](#discuss)
+      - [Submit a Pull Request](#submit-a-pull-request)
 
 ### Code of Conduct
 
 This project is governed by the [Code of Conduct](CODE_OF_CONDUCT.md).
 By participating you are expected to uphold this code.
-Please report unacceptable behavior to igabaydulin@gmail.com.
+Please report unacceptable behavior to .
 
 ### How to Contribute
 
 #### Discuss
 
 If you suspect an issue, perform a search in the
-[GitHub issue tracker](https://github.com/igabaydulin/helm-check-action/issues), using a few different keywords.
+[GitHub issue tracker](https://github.com/ZSuiteTech/helm-check-action/issues), using a few different keywords.
 When you find related issues and discussions, prior or current, it helps you to learn and
 it helps us to make a decision.
 
@@ -28,7 +27,7 @@ it helps us to make a decision.
 
 You can contribute a source code change by submitting a pull request.
 
-1. Always check out the `master` branch and submit pull requests against it
+1. Always check out the `main` branch and submit pull requests against it
 
 1. Use short branch names, preferably based on the GitHub issue (e.g. `22276`), or
 otherwise using succinct, lower-case, dash (-) delimited names, such as `fix-warnings`.
